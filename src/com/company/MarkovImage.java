@@ -4,12 +4,6 @@ import java.awt.image.*;
 import java.io.*;
 import javax.imageio.*;
 
-//read the image; for each image generate a 2d array of rgb values
-//iterate through the rgb values to create adjcolor map
-//all colors are stored in a hashmap, which will be passed in
-//https://docs.oracle.com/javase/tutorial/2d/images/loadimage.html
-//https://docs.oracle.com/javase/7/docs/api/java/awt/image/BufferedImage.html
-
 /**
  * This class imports asset images and use Markov chains based on frequencies of color pixels
  * to generate a new image (Markov image)
