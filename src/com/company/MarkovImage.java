@@ -75,7 +75,7 @@ public class MarkovImage {
         }
     }
 
-    public void createImg(int it) {
+    private void createImg(int it) {
         BufferedImage img = new BufferedImage(pixels.length, pixels[0].length, BufferedImage.TYPE_INT_RGB);
         //pick a random color to start with
         Object[] colours = allCol.keySet().toArray();
